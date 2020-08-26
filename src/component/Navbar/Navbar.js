@@ -40,8 +40,8 @@ const Navbar = () => {
     return (
         <nav className="bg-white shadow-md fixed top-0 z-20 left-0 right-0">
             <div className="py-4 sm:flex justify-between relative">
-                <div className="ml-8 sm:ml-12 inline-block text-xl">
-                    <a href="/" className="no-underline text-black flex">
+                <div className="ml-8 sm:ml-12 inline-block text-xl h-8">
+                    <a href="/" className="no-underline text-black flex w-full h-full">
                         <div className="w-12 h-8">
                             <img src={logo} className="w-full h-full"/>
                         </div>
