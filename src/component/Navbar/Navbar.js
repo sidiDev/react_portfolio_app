@@ -42,7 +42,9 @@ const Navbar = () => {
             <div className="py-4 sm:flex justify-between relative">
                 <div className="ml-8 sm:ml-12 inline-block text-xl">
                     <a href="/" className="no-underline text-black flex">
-                        <img src={logo} height="20" width="40"/>
+                        <div className="w-12 h-8">
+                            <img src={logo} className="w-full h-full"/>
+                        </div>
                         <span className="block ml-2 w-24">SidiDev</span>
                     </a>
                 </div>
